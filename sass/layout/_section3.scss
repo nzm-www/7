@@ -1,0 +1,45 @@
+.section3 {
+  background: rgba(61, 74, 57, 1);
+}
+.box-ser {
+  padding-top: 100px;
+  padding-bottom: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sar-h2 {
+  font-family: Raleway, sans-serif;
+  color: aliceblue;
+  font-size: 46px;
+  font-weight: 600;
+  line-height: 58px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.top-box {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 70px;
+}
+.mini-box {
+  display: flex;
+  justify-content: space-evenly;
+}
+.box-pp {
+  color: rgba(240, 248, 255, 0.604);
+  display: flex;
+  text-align: center;
+}
+.button-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 100px;
+}
+.no-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}

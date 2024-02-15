@@ -1,0 +1,511 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+}
+
+main {
+  flex-grow: 1;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding-inline: 20px;
+}
+
+.nav {
+  display: flex;
+}
+
+.logo {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.nav-list {
+  align-items: center;
+  padding-left: 143px;
+  padding-right: 146px;
+  display: flex;
+  gap: 40px;
+}
+@media (max-width: 1000px) {
+  .nav-list {
+    display: none;
+  }
+}
+
+.nav-link {
+  font-family: Raleway, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgb(40, 43, 34);
+}
+
+.nav-link:hover {
+  color: chocolate;
+}
+
+.apps {
+  padding-right: 63px;
+  display: flex;
+  gap: 15px;
+}
+@media (max-width: 1000px) {
+  .apps {
+    display: none;
+  }
+}
+
+.tels {
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 1000px) {
+  .tels {
+    display: none;
+  }
+}
+
+/*---------------------------------*/
+/*yoboluvchi*/
+.hero {
+  background-image: url("/imges/ustaka.png");
+  background-repeat: no-repeat;
+  height: 687px;
+  background-size: 1600px;
+  background-position: center;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.main-info {
+  padding-top: 120px;
+  padding-bottom: 20px;
+  font-family: Lato, sans-serif;
+  color: azure;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 67px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.main-tex {
+  padding-bottom: 50px;
+  font-family: Raleway, sans-serif;
+  color: aliceblue;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.main-btn {
+  font-family: Raleway, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-left: 52px;
+  padding-right: 52px;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  background: rgb(174, 123, 60);
+  border: 0;
+  color: aliceblue;
+}
+
+.main-btn:hover {
+  color: rgb(211, 144, 0);
+}
+
+.new-box {
+  display: flex;
+}
+@media (max-width: 100px) {
+  .new-box {
+    flex-direction: column;
+  }
+}
+
+.box-info {
+  padding-top: 140px;
+  padding-bottom: 40px;
+}
+
+.box-info-h2 {
+  color: rgba(0, 0, 0, 0.7019607843);
+  font-family: Raleway, sans-serif;
+  font-size: 46px;
+  font-weight: 600;
+  line-height: 58px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.box1 {
+  display: flex;
+  padding-left: 60px;
+}
+
+.box-p {
+  padding-top: 80px;
+  color: rgba(40, 43, 34, 0.438);
+  font-family: Raleway, sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-bottom: 60px;
+}
+
+.box-h3 {
+  color: rgba(0, 0, 0, 0.666);
+  font-family: Raleway, sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-bottom: 30px;
+}
+
+.boxdiv {
+  padding-bottom: 140px;
+}
+
+.section3 {
+  background: rgb(61, 74, 57);
+}
+
+.box-ser {
+  padding-top: 100px;
+  padding-bottom: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sar-h2 {
+  font-family: Raleway, sans-serif;
+  color: aliceblue;
+  font-size: 46px;
+  font-weight: 600;
+  line-height: 58px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.top-box {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 70px;
+}
+
+.mini-box {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.box-pp {
+  color: rgba(240, 248, 255, 0.604);
+  display: flex;
+  text-align: center;
+}
+
+.button-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 100px;
+}
+
+.no-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.proyekt {
+  padding-top: 100px;
+  padding-bottom: 140px;
+}
+
+.pro-h2 {
+  font-family: Raleway, sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 47px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding-bottom: 80px;
+}
+
+.por-box {
+  padding-top: 35px;
+  padding-bottom: 35px;
+  padding-left: 135px;
+  padding-right: 135px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.right-box {
+  display: flex;
+  gap: 20px;
+}
+
+.r-box-p {
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.left-box {
+  display: flex;
+  gap: 20px;
+}
+
+.l-boxp {
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.kuhnya {
+  position: absolute;
+  padding-left: 140px;
+}
+
+.kuhnya22 {
+  margin-right: 200px;
+  position: absolute;
+  padding-left: 1250px;
+  padding-top: 200px;
+}
+
+/*---------------------------------------*/
+.action__container {
+  padding-top: 80px;
+}
+
+.action__container h2 {
+  margin-left: 500px;
+  margin-bottom: 50px;
+  color: #282b22;
+  text-align: center;
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 125%;
+  text-transform: uppercase;
+  width: 375px;
+  height: 58px;
+}
+
+.hr-1 {
+  margin-bottom: 10px;
+}
+
+.action__container .line-1 {
+  padding-bottom: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 80px;
+  margin-right: 120px;
+}
+
+.list-link {
+  display: flex;
+  justify-content: center;
+  font-family: Raleway, sans-serif;
+  font-size: 46px;
+  font-weight: 600;
+  line-height: 58px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.action-h3 {
+  font-family: Raleway, sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-bottom: 10px;
+}
+
+.action-h3:hover {
+  color: chocolate;
+}
+
+.action-p {
+  font-family: Raleway, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.imggirl {
+  position: absolute;
+  padding-top: 360px;
+  padding-left: 200px;
+}
+
+.numbers {
+  font-family: Raleway, sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.numbers:hover {
+  color: chocolate;
+}
+
+.sectionreg {
+  background-color: rgb(61, 74, 57);
+  display: flex;
+}
+
+.box-input {
+  margin-left: 200px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  width: 350px;
+  background: rgb(61, 74, 57);
+  flex-direction: column;
+}
+
+.imgcha {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  gap: 10px;
+  display: flex;
+}
+
+.inputs {
+  flex-direction: column;
+}
+
+.input {
+  height: 33px;
+  background-color: rgba(0, 59, 110, 0);
+  width: 300px;
+  border-block-end: 0.1px solid rgba(61, 74, 57, 0.667);
+  writing-mode: horizontal-tb;
+}
+
+.input-h2 {
+  padding-bottom: 20px;
+  font-family: Raleway, sans-serif;
+  font-size: 46px;
+  font-weight: 600;
+  line-height: 58px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(240, 248, 255, 0.895);
+}
+
+.input-p {
+  padding-bottom: 40px;
+  font-family: Raleway, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(240, 248, 255, 0.536);
+}
+
+.regs-btn {
+  padding-left: 104px;
+  padding-right: 104px;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  background: rgb(174, 123, 60);
+  border: 0;
+  color: aliceblue;
+  font-family: Raleway, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-bottom: 25px;
+}
+
+.regs-btn:hover {
+  color: rgb(242, 30, 30);
+}
+
+.inpu {
+  padding-bottom: 20px;
+}
+
+.imgcha-p {
+  color: rgba(240, 248, 255, 0.478);
+  font-family: Raleway, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.btn {
+  border: none;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}/*# sourceMappingURL=main.css.map */

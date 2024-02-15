@@ -1,0 +1,51 @@
+.hero {
+  background-image: url("/imges/ustaka.png");
+  background-repeat: no-repeat;
+  height: 687px;
+  background-size: 1600px;
+  background-position: center;
+}
+.main-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.main-info {
+  padding-top: 120px;
+  padding-bottom: 20px;
+  font-family: Lato, sans-serif;
+  color: azure;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 67px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.main-tex {
+  padding-bottom: 50px;
+  font-family: Raleway, sans-serif;
+  color: aliceblue;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.main-btn {
+  font-family: Raleway, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-left: 52px;
+  padding-right: 52px;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  background: rgba(174, 123, 60, 1);
+  border: 0;
+  color: aliceblue;
+}
+.main-btn:hover {
+  color: rgb(211, 144, 0);
+}

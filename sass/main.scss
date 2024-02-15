@@ -1,0 +1,25 @@
+@use "utilities/variables";
+@use "utilities/mixins";
+
+// @use 'vendors/normalize';
+
+@use "base/reset";
+@use "base/typography";
+
+@use "layout/header";
+@use "layout/hero";
+@use "layout/footer";
+@use "layout/section2";
+@use "layout/section3";
+@use "layout/proyekt";
+@use "layout/section-reg";
+
+// @use 'layout/sidebar';
+// @use 'layout/navigation';
+// @use 'layout/forms';
+
+@use "components/buttons";
+
+@use "pages/home";
+
+@use "themes/theme";

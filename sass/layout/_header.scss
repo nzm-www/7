@@ -1,0 +1,47 @@
+.nav {
+  display: flex;
+}
+.logo {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.nav-list {
+  align-items: center;
+  padding-left: 143px;
+  padding-right: 146px;
+  display: flex;
+  gap: 40px;
+  @media (max-width: 1000px) {
+    display: none;
+  }
+}
+.nav-link {
+  font-family: Raleway, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(40, 43, 34, 1);
+}
+.nav-link:hover {
+  color: chocolate;
+}
+.apps {
+  padding-right: 63px;
+  display: flex;
+  gap: 15px;
+  @media (max-width: 1000px) {
+    display: none;
+  }
+}
+.tels {
+  display: flex;
+  align-items: center;
+  @media (max-width: 1000px) {
+    display: none;
+  }
+}
+/*---------------------------------*/
+
+/*yoboluvchi*/

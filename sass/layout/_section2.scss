@@ -1,0 +1,48 @@
+.new-box {
+  display: flex;
+
+  @media (max-width: 100px) {
+    flex-direction: column;
+  }
+}
+.box-info {
+  padding-top: 140px;
+  padding-bottom: 40px;
+}
+.box-info-h2 {
+  color: #000000b3;
+  font-family: Raleway, sans-serif;
+  font-size: 46px;
+  font-weight: 600;
+  line-height: 58px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.box1 {
+  display: flex;
+  padding-left: 60px;
+}
+.box-p {
+  padding-top: 80px;
+  color: rgba(40, 43, 34, 0.438);
+  font-family: Raleway, sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-bottom: 60px;
+}
+.box-h3 {
+  color: rgba(0, 0, 0, 0.666);
+  font-family: Raleway, sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-bottom: 30px;
+}
+.boxdiv {
+  padding-bottom: 140px;
+}
